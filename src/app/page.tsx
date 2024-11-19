@@ -4,7 +4,7 @@ export default function Home() {
   };
 
   return (
-    <main>
+    <main className="container mx-auto">
     <h1>Hej hej!</h1>
       <pre>
         {JSON.stringify(data, null, 2)}
